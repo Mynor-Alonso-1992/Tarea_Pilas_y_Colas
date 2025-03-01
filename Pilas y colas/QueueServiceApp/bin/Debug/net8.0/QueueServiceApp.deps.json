@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "QueueServiceApp/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.7.400.104",
+          "RabbitMQ.Client": "5.2.0"
+        },
+        "runtime": {
+          "QueueServiceApp.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.10": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.10"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.400.104": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.10"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.104"
+          }
+        }
+      },
+      "RabbitMQ.Client/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueueServiceApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YqwFZD2h6++mjPV9xCL/C27NMGnrihFcDcT68AjOazVO6Gi1jsVfxf2w7VwvGjiR20bIGIcHyRQXKxsU+nJ5SQ==",
+      "path": "awssdk.core/3.7.402.10",
+      "hashPath": "awssdk.core.3.7.402.10.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.400.104": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZJi1ozU0miQDkffDd/djs9HZq3/M1Fw2tKvnjRgXrJ/eZQsCsY/olbdNYLtMdWH7N4QEm4lDz0Frd84lIupoA==",
+      "path": "awssdk.sqs/3.7.400.104",
+      "hashPath": "awssdk.sqs.3.7.400.104.nupkg.sha512"
+    },
+    "RabbitMQ.Client/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WY73qFhekwALxI+YTf97WkeWjnQXZFjkSc1oCwZ7Pz/XwOthBotr9ty3DhU2F7GuzU0HHyO9z9uW6AXr+TyhLQ==",
+      "path": "rabbitmq.client/5.2.0",
+      "hashPath": "rabbitmq.client.5.2.0.nupkg.sha512"
+    }
+  }
+}

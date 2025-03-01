@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XKbsPIbEWXw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\meam5\\OneDrive\\Escritorio\\Pilas y colas\\QueueServiceApp\\QueueServiceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\meam5\\.nuget\\packages\\awssdk.core\\3.7.402.10\\awssdk.core.3.7.402.10.nupkg.sha512",
+    "C:\\Users\\meam5\\.nuget\\packages\\awssdk.sqs\\3.7.400.104\\awssdk.sqs.3.7.400.104.nupkg.sha512",
+    "C:\\Users\\meam5\\.nuget\\packages\\rabbitmq.client\\5.2.0\\rabbitmq.client.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
